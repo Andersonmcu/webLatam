@@ -7,18 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 
 /**
- * <pre>
- * Fecha      Autor     
- * 17-11-2018 Dilan Steven Mejia	
- * </pre>
- * 
- * Aqui se inicia la configuración del driver y el js como un singleton 
- * para que se pueda utilizar solo en la capa de view y no se instancie mas 
- * de una vez.
- * 
- * @author Dilan Steven Mejia
- * @version 1.0
- * @category Utils
+ * @author Andersson Viveros
  * **/
 
 
