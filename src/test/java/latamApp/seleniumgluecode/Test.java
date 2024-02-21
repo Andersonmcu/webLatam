@@ -36,15 +36,12 @@ public class Test extends TestBase{
         if (seleccionarFechaIda != null && seleccionarFechaIda.isDisplayed()) {
             seleccionarFechaIda.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento seleccionarFechaIda no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
     }
 
     @And("^hace clic el campo fecha de Vuelta$")
     public void hace_clic_el_campo_fecha_de_Vuelta() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
         WebElement clicDatapickerIda = SeleniumUtils.esperarElemento("arrivalDate", "id");
         clicDatapickerIda.click();
     }
@@ -57,9 +54,7 @@ public class Test extends TestBase{
         if (seleccionarFechaVuelta != null && seleccionarFechaVuelta.isDisplayed()) {
             seleccionarFechaVuelta.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento seleccionarFechaVuelta no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
     }
 
@@ -90,9 +85,7 @@ public class Test extends TestBase{
         if (listaAgregarPasajeros != null && listaAgregarPasajeros.isDisplayed()) {
             listaAgregarPasajeros.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento listaAgregarPasajeros no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
     }
 
@@ -111,9 +104,7 @@ public class Test extends TestBase{
         if (restriccionBebes != null && restriccionBebes.isDisplayed()) {
             restriccionBebes.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento restriccionBebes no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
     }
 
@@ -127,9 +118,7 @@ public class Test extends TestBase{
         if (seleccionarFechaIda != null && seleccionarFechaIda.isDisplayed()) {
             seleccionarFechaIda.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento seleccionarFechaIda no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
         System.out.println("llega aqui");
     }
@@ -142,9 +131,7 @@ public class Test extends TestBase{
         if (seleccionarFechaVuelta != null && seleccionarFechaVuelta.isDisplayed()) {
             seleccionarFechaVuelta.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento seleccionarFechaVuelta no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
     }
 
@@ -161,9 +148,7 @@ public class Test extends TestBase{
         if (placeholderSeleccionaFecha != null && placeholderSeleccionaFecha.isDisplayed()) {
             placeholderSeleccionaFecha.click();
         } else {
-            // Manejar la situación donde el elemento no está visible
             System.out.println("El elemento placeholderSeleccionaFecha no está visible o no se encontró.");
-            // Puedes lanzar una excepción, imprimir un mensaje o realizar alguna otra acción según tus necesidades.
         }
     }
 
