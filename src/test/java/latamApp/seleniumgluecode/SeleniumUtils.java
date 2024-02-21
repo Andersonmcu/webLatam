@@ -6,11 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
- * Aqui se tiene metodos reutilizables que ayuda con problemas 
- * repetitivos en la automatización.
  * @author Andersson Viveros
- * @version 1.0
- * @category Utils
  * **/
 
 public class SeleniumUtils {
