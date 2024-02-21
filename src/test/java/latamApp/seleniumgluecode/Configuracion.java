@@ -25,7 +25,7 @@ public class Configuracion {
 			chromeOptions.addArguments("--no-sandbox");
 			// Ignorar certificados SSL (esto no es recomendable para entornos de producción)
 			chromeOptions.addArguments("--ignore-certificate-errors");
-	        // Permitir ejecutar en entornos no seguros (esto no es recomendable para entornos de producción)
+	        	// Permitir ejecutar en entornos no seguros (esto no es recomendable para entornos de producción)
 			chromeOptions.addArguments("--allow-running-insecure-content");
 
 			driver = new ChromeDriver(chromeOptions);
